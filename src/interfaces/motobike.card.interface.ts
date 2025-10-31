@@ -1,6 +1,8 @@
+import Image, {StaticImageData} from "next/image";
+
 export interface IMotobikeCard {
     className?: string;
-    image?: string;
+    image?: StaticImageData;
     name?: string;
     brand?: string;
     model?: string;
