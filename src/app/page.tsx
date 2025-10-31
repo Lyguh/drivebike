@@ -10,16 +10,16 @@ export default function Home() {
         <div className="bg-gradient-to-b from-[#000000] to-[#9B4A08] relative bottom-5">
             <MotobikeSection />
         </div>
-        <div className={"bg-[url('/static/feedbackLayer.png')] bg-no-repeat bg-center bg-contain lg:bg-cover"}>
+        <div className={"bg-[url('./static/feedbackLayer.png')] bg-no-repeat bg-center bg-contain lg:bg-cover"}>
         {
             <FeedbackSection />
         }
         </div>
-        <div className="bg-[url('/static/contactsLayer.png')] bg-no-repeat bg-left md:bg-cover">
+        <div className="bg-[url('./static/contactsLayer.png')] bg-no-repeat bg-left md:bg-cover">
             <ContactSection />
         </div>
         <div className="bg-gradient-to-b from-[#9B4A08]  via-[#9B4A08] to-[#000000]   relative top-1">
-            <div className="bg-[url('/static/sapportLayer.png')] bg-no-repeat bg-left md:bg-contain">
+            <div className="bg-[url('./static/sapportLayer.png')] bg-no-repeat bg-left md:bg-contain">
                 <HelpSection />
             </div>
         </div>
