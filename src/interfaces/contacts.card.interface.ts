@@ -1,5 +1,5 @@
 export interface IContactsCard {
-    className: string;
+    className?: string;
     children: React.ReactNode;
     additional?: string;
     sap?: string;
