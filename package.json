@@ -1,6 +1,7 @@
 {
   "name": "drivebike",
   "version": "0.1.0",
+  "homepage": "https://lyguh.github.io/drivebike/",
   "private": true,
   "scripts": {
     "dev": "next dev",
