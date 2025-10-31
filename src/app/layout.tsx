@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="bg-[url('/public/static/informationLayer.png')] bg-no-repeat bg-top bg-cover md:bg-cover">
+        <div className="bg-[url(/public/static/informationLayer.png)] bg-no-repeat bg-top bg-cover md:bg-cover">
           <Header />
           <InformationSection />
         </div>
