@@ -1,7 +1,6 @@
 "use client"
 import React, {useEffect} from 'react';
 import Link from "next/link";
-import Search from "@/widgets/search";
 import {MENU_DATA} from "@/data/menu.data";
 import {cn} from "@/lib/utils";
 
