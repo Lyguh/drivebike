@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "next/image";
+import Image, {StaticImageData} from "next/image";
 import { FaAngleRight } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import {cn} from "@/lib/utils";
@@ -7,13 +7,12 @@ import Link from "next/link";
 
 interface ICard {
     className?: string;
-    image: string;
+    image: StaticImageData;
     name: string;
     text: string;
-    sap?: string;
 }
 
-export const Cards = ({className, image, name, text, sap}: ICard) => {
+export const Cards = ({className, image, name, text}: ICard) => {
     return (
         <div className={cn(className, "mt-[20px] w-full  md:w-[441px] h-auto bg-[#832900]/50 rounded-[10px] text-[#FFF1EB] p-[18px]")}>
             <div className=" flex items-center gap-x-[15px]">
