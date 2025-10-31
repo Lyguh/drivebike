@@ -6,6 +6,7 @@ import Section from "@/storage/information/section";
 import {InformationSection} from "@/storage/information";
 import {Fa1} from "react-icons/fa6";
 import Footer from "@/storage/footer";
+import informationLayer from "../../public/static/informationLayer.png";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +32,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="bg-[url(/public/static/informationLayer.png)] bg-no-repeat bg-top bg-cover md:bg-cover">
+        <div className="bg-[{informationLayer}] bg-no-repeat bg-top bg-cover md:bg-cover">
           <Header />
           <InformationSection />
         </div>
